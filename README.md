@@ -5,7 +5,6 @@ A production-grade lead management system built on the MERN stack with TypeScrip
 **Live demo:** [smart-leads-dashboard-ebon.vercel.app](https://smart-leads-dashboard-ebon.vercel.app)  
 **Video walkthrough:** [Demo](https://drive.google.com/file/d/1KFluiSbHjSFZYrOV-2bpww5GdOyENE6W/view?usp=drive_link)
 
-> Replace the two links above with your actual deployment URL and video URL before publishing.
 
 ---
 
@@ -16,7 +15,7 @@ A production-grade lead management system built on the MERN stack with TypeScrip
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
-  - [Docker (recommended)](#docker-recommended)
+  - [Docker](#docker-recommended)
   - [Manual setup](#manual-setup)
 - [Environment Variables](#environment-variables)
 - [Role-Based Access Control](#role-based-access-control)
@@ -190,7 +189,7 @@ smart-leads/
 
 Node.js 20 and npm 9 or later are required for the manual path. Docker Desktop 4.x or later is required for the containerised path.
 
-### Docker (recommended)
+### Docker
 
 This path starts MongoDB, the API server, and the Nginx-served frontend as three containers on an isolated bridge network. No local MongoDB installation is needed.
 
